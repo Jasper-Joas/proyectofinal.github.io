@@ -1,0 +1,114 @@
+main{
+    position: relative;
+    top: 108px;
+}
+.content-one{
+    width: 100%;
+}
+.content-portada{
+    width: 100%;
+    height: 700px;
+    background-image: url(img/fondo.jfif);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-with:1500px){
+    .content-portada{
+        background-size: 2000px;  
+    }
+}
+.content-item1{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.content-item1 h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+}
+.content-item1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*Contento two informacion */
+.content-two{
+    width: 100%;
+    padding: 40px;
+    background:  #e7f0fd 100%; 
+}
+.content-details{
+    width:  80%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contents-item2{
+    width: 800px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+
+}
+/*content three imagenes */
+.content-three{
+    width: 100%;
+    background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+.content-module{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.content-module img{
+    margin-top: 40px;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(img/abstract-dark-blue-dynamic-background-with-diagonal-stripes-free-vector.jpg);
+    background-size: cover;
+    height: 900px;
+
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box_footer .logo img{
+    width: 120px;
+}
+.box_copyright{
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box_copyright p{
+    margin-top: 30px;
+    color: white;
+
+}
+.box_copyright hr{
+    border:none;
+    height: 2px;
+    background-color: black;
+}
+
+
